@@ -19,11 +19,11 @@ theme.forEach(element => {
          this.classList.remove("active");
          body.classList.toggle("darkTheme");
          if(body.classList.contains("darkTheme")){
-            image.src = "homeportfoliolight.jpg";
-            image2.src = "appline-light.jpg";
+            image.src = "images/homeportfoliolight.jpg";
+            image2.src = "images/appline-light.jpg";
          }else{
-            image.src="homeportfolio.jpg";
-            image2.src = "appline-dark.jpg";
+            image.src="images/homeportfolio.jpg";
+            image2.src = "images/appline-dark.jpg";
          }
      })
 });
