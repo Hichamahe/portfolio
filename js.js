@@ -11,6 +11,7 @@ burger.addEventListener("click",function(){
 body = document.querySelector("body")
 theme = document.querySelector(".theme").querySelectorAll("i");
 image = document.getElementById("portfolio");
+image2 = document.getElementById("appline");
 
 theme.forEach(element => {
      element.addEventListener("click", function(){
@@ -19,8 +20,10 @@ theme.forEach(element => {
          body.classList.toggle("darkTheme");
          if(body.classList.contains("darkTheme")){
             image.src = "homeportfoliolight.jpg";
+            image2.src = "appline-light.jpg";
          }else{
             image.src="homeportfolio.jpg";
+            image2.src = "appline-dark.jpg";
          }
      })
 });
